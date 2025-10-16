@@ -1,0 +1,35 @@
+.myNav{
+    background-color: #44150d;
+    border-radius: 15px; 
+}
+.myul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+    font-style: initial;
+    color: black;
+    
+}
+.myli{
+    color: white;
+    font-size: larger;
+
+}
+.myimge{
+    border-radius: 50px;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    width: 45px;
+}
+.ximge{
+    width: 45px;
+    border-radius: 50px;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
