@@ -76,7 +76,10 @@
   top: 10xpx;
   right: 0;
   /* background-color:  rgb(107, 107, 185); */
-  background-color:  rgb(208, 142, 71);
+  /* background-color:  rgb(208, 142, 71);*/
+  /* background-color: #6DD952; */
+  background-color: #7b4eff;
+
   color: black;
   opacity: 0;
   border-radius: 10px;
@@ -93,6 +96,7 @@
 }
 .menu-dropdown li{
   margin-bottom: 6px;
+  list-style: none;
 }
 .menu-dropdown a{
   text-decoration: none;
@@ -113,8 +117,11 @@
 .order-btn{
   padding: 4px 10px;
   border-radius: 8px;
+  background-color: #002ead;
+  color: white;
   cursor: pointer;
   border: 1px purple solid;
+  font-size: 18px; 
 }
 .order-btn:hover{
   box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.5);
@@ -125,4 +132,67 @@
 } 
 .order-btn:active{
   transform: scale(0.9);
+}
+.contact-us{
+  position: relative;
+}
+.reach-me{
+  position: absolute;
+  top: 10xpx;
+  right: 0;
+  /* background-color:  rgb(107, 107, 185); */
+  /* background-color: #6DD952; */
+  background-color: #7b4eff;
+  color: black;
+  opacity: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 180px;
+  max-width: 220px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.5s ease, visibility 0.4s ease; 
+}
+.reach-me li{
+  margin-bottom: 6px;
+  list-style: none;
+
+}
+.reach-me a{
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.10s ease;
+
+}
+.reach-me a:hover{
+  color: #7b4eff;
+
+}
+.contact-us:hover .reach-me{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.social-link{
+  position:sticky;
+  top: 19em;
+  width: 1em;
+  right: 50px;
+  border-radius: 50%;
+}
+.icon-img{
+  position: sticky;
+  top: 19em;
+  width: 2em;
+  right: 50px;
+  border-radius: 50%;
+}
+.menu-box{
+  font-size: 25px;
 }
