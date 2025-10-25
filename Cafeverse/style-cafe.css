@@ -50,7 +50,8 @@ body{
   position: relative;
   color: white;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-  left: 55.5em;
+  left: 55.3em;
+  /* left: 69em; */
   background-color: #7EAD21;
   border: 2px purple solid; 
   transition: all 0.4s ease;
