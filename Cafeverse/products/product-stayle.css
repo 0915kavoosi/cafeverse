@@ -4,17 +4,16 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
-
 }
-
 header {
-  background-color: #3b2f2f;
-  /* background-color: #002eadcc; */
+  background-color: #3b2f2f; 
+   /* background-color: #002eadcc; */
   color: #fff;
   padding: 1.5rem;
   text-align: center;
   font-size: 1.8rem;
   letter-spacing: 1px;
+  padding: 1.5em;
 }
 
 .product-card {
@@ -55,14 +54,14 @@ header {
 }
 
 .product-info p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #555;
   margin-bottom: 1rem;
 }
 
 .price {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 20em;
   color: #795548;
 }
 
