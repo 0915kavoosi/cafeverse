@@ -267,14 +267,14 @@ p{
   text-align: center;
   background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
   transition: transform 0.3s ease;
-  position: relative;
-  left: 2em;
+  position: relative; 
+  left: 2em; 
 }
 .product-box:hover{
   transform: translateY(-5px);
 }
 .product-box img{
-  width: 100%;
+  width: 75.9%;
   height: 90%;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -311,8 +311,8 @@ p{
   text-align: center;
   background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
   transition: transform 0.3s ease;
-  position: relative;
-  left: 15.5em;
+  position: relative; 
+  left: 15.5em; 
   bottom: 18.6em;
 }
 .product-title:hover{
