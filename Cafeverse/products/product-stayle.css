@@ -5,7 +5,7 @@ body {
   padding: 0;
   background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
 }
-header {
+.header {
   background-color: #3b2f2f; 
    /* background-color: #002eadcc; */
   color: #fff;
@@ -15,7 +15,6 @@ header {
   letter-spacing: 1px;
   padding: 1.5em;
 }
-
 .product-card {
   display: flex;
   flex-direction: row;
@@ -28,7 +27,6 @@ header {
   border-radius: 12px;
   overflow: hidden;
 }
-
 .product-card img {
   height: 23rem;
   width: 10rem;
@@ -37,7 +35,6 @@ header {
   position: relative;
   left: 38em;
 }
-
 .product-info {
   padding: 2rem;
   display: flex;
@@ -46,26 +43,22 @@ header {
   position: relative;
   right: 13em;
 }
-
 .product-info h2 {
   font-size: 1.5rem;
   color: #4e342e;
   margin-bottom: 0.5rem;
 }
-
 .product-info p {
   font-size: 1.5rem;
   color: #555;
   margin-bottom: 1rem;
 }
-
 .price {
   font-weight: bold;
   font-size: 20em;
   color: #795548;
 }
-
-button {
+.bottom-submit {
   padding: 0.8rem 1.2rem;
   /* background-color: #4e342e; */
   background-color: #002ead;
@@ -75,19 +68,15 @@ button {
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
-
   font-size: 20px;
   transition: background-color 0.3s ease;
 }
-
-button:hover {
+.bottom-submit:hover {
   background-color: #031a5c;
-
 }
 .bottom-submit{
   width: 25em;
 }
-
 .card{
   display: flex;
   flex-direction: row;
@@ -106,11 +95,6 @@ button:hover {
   left: 25em;
   object-fit: cover;
 }
-
-/* .card h1{
-  position: relative;
-  right: 12em;
-} */
 .card-info{
   padding: 2rem;
   display: flex;
@@ -131,6 +115,126 @@ button:hover {
   font-style: italic;
   font-size: 1.2em;
   bottom: 3em;
+  line-height: 1.8;
+}
+.card-new{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 3rem auto;
+  max-width: 750px;
+  /* padding: 20px 30px; */
+  padding: 10px 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.card-new img{
+  /* height: 23rem; */
+  width: 28.5%;
+  object-fit: cover;
+  right: 50em;
+  position: relative;
+  border-radius: 10px;
+  left: 35em;
+}
+.title-brew{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  right: 13em;
+}
+.title-brew h2{
+  font-size: 1.5rem;
+  color: #4e342e;
+  margin-bottom: 0.5rem;
+}
+.title-brew p{
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+.price-tag{
+   font-weight: bold;
+  font-size: 20em;
+  color: #795548;
+}
+.btn-order{
+  padding: 0.8rem 1.2rem;
+  background-color: #002ead;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+.btn-order:hover{
+  background-color: #031a5c;
+}
+.btn-order{
+  width: 25em;
+}
+.main-brew{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 3rem auto;
+  max-width: 75em;
+  padding: 20px 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  /* width: ; */
+  overflow: hidden;
+}
+.main-brew img{
+  width: 65%;
+  border-radius: 15px;
+  position: relative;
+  left: 41.2em;
+  object-fit: cover;
+}
+.title{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  right: 13em;
+}
+.title h1{
+  position: relative;
+  right: 11.5em;
+  bottom: 1em;
+}
+.title p{
+  position: relative;
+  right: 20em;
+  bottom: 12em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.2em;
+  /* bottom: 3em; */
   /* font-weight: 50px; */
   line-height: 1.8;
+}
+#body-of-page{
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f1ee;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
+}
+.Page-header{
+  background-color: #3b2f2f; 
+  color: #fff;  
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  padding: 1.5em;
 }
