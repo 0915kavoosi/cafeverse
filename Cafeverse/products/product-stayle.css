@@ -20,7 +20,7 @@ body {
   flex-direction: row;
   background-color: #fff;
   margin: 3rem auto;
-  max-width: 750px;
+  max-width: 1000px;
   /* padding: 20px 30px; */
   padding: 10px 30px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -28,8 +28,8 @@ body {
   overflow: hidden;
 }
 .product-card img {
-  height: 23rem;
-  width: 10rem;
+  /* height: 10rem; */
+  width: 28rem;
   object-fit: cover;
   right: 50em;
   position: relative;
@@ -46,12 +46,17 @@ body {
 .product-info h2 {
   font-size: 1.5rem;
   color: #4e342e;
-  margin-bottom: 0.5rem;
+  position: relative;
+  right: 11em;
+  bottom: 1em;
 }
 .product-info p {
   font-size: 1.5rem;
   color: #555;
   margin-bottom: 1rem;
+  position: relative;
+  right: 11em;
+  bottom: 2em;
 }
 .price {
   font-weight: bold;
@@ -70,6 +75,8 @@ body {
   cursor: pointer;
   font-size: 20px;
   transition: background-color 0.3s ease;
+  position: relative;
+  right: 13em;
 }
 .bottom-submit:hover {
   background-color: #031a5c;
@@ -172,13 +179,13 @@ body {
   cursor: pointer;
   font-size: 20px;
   transition: background-color 0.3s ease;
+  min-width: 2em;
 }
 .btn-order:hover{
   background-color: #031a5c;
 }
-.btn-order{
-  width: 25em;
-}
+/* .btn-order{
+} */
 .main-brew{
   display: flex;
   flex-direction: row;
@@ -218,19 +225,149 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 1.2em;
-  /* bottom: 3em; */
+  bottom: 8em;
   /* font-weight: 50px; */
-  line-height: 1.8;
+  line-height: 2.8;
 }
 #body-of-page{
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f1ee;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
+  overflow: scroll;
   background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
 }
-.Page-header{
+.Page-header{ 
+  background-color: #3b2f2f; 
+  color: #fff;  
+  text-align: center;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  padding: 1.5em;
+}
+.coffee-card{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 3rem auto;
+  max-width: 1000px;
+  /* padding: 20px 30px; */
+  padding: 10px 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.coffee-card img{
+  /* height: 23rem; */
+  width: 45%;
+  object-fit: cover;
+  right: 50em;
+  position: relative;
+  border-radius: 10px;
+  left: 35em;
+}
+.coffee-title{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  right: 13em;
+}
+.coffee-title h2{
+  font-size: 1.5rem;
+  color: #4e342e;
+  margin-bottom: 0.5rem;
+  position: relative;
+  right: 10em;
+  bottom: 1em;
+}
+.coffee-title p{
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 1rem;
+  position: relative;
+  right: 10em;
+  bottom: 1.5em;
+}
+.coffee-price{
+  font-weight: bold;
+  font-size: 20em;
+  color: #795548;
+}
+.cart-btn{
+  padding: 0.8rem 1.2rem;
+  background-color: #002ead;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 25em;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  right: 12em;
+  bottom: 0.5 em;
+}
+.cart-btn:hover{
+  background-color: #031a5c;
+}
+.Product-description{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 3rem auto;
+  max-width: 75em;
+  padding: 20px 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  /* width: ; */
+  overflow: hidden;
+}
+.Product-description img{
+  width: 32%;
+  /* height: 3em; */
+  border-radius: 15px;
+  position: relative;
+  left: 51em;
+  object-fit: cover;
+}
+.Product-title{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  right: 13em;
+}
+.Product-title h1{
+  position: relative;
+  right: 6em;
+  bottom: 1em;
+  font-family: serif;
+}
+.Product-title p{
+  position: relative;
+  right: 11em;
+  bottom: 12em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.2em;
+  bottom: 3em;
+  /* font-weight: bold; */
+  line-height: 2.8;
+}
+#body{
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f1ee;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
+}
+.cafe-header{
   background-color: #3b2f2f; 
   color: #fff;  
   text-align: center;
