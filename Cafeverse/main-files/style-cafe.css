@@ -1,0 +1,439 @@
+body{
+  overflow-x: hidden;
+}
+.vorod-Membership{
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-left: 58em;
+  background-color: #4bc41f;
+  font-weight: bold;
+}
+.navbar {
+  /* border-radius: 2px; */
+  background-color: #4e342e;
+  padding: 15px 20px;
+  position: relative;
+  bottom: 5em;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+.nav-list li a {
+  color: #fff;
+  font-size: 25em;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+.nav-list li a:hover {
+  color: #ffccbc;
+}
+.nav-logo{
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5em;
+}
+.join-btn{
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  left: 55.3em;
+  /* left: 69em; */
+  background-color: #7EAD21;
+  border: 2px purple solid; 
+  transition: all 0.4s ease;
+  cursor: pointer;
+  z-index: 10;
+}
+.join-btn:hover{
+  background-color: #61923efd; 
+}
+.join-btn:active{
+  background-color: #47ab00;
+  transform: scale(0.9);
+}
+.Cafe-text-title{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 2.5em;
+  font-size: 23px;
+}
+.menu-parent{
+  position: relative;
+}
+.menu-dropdown{
+  position: absolute;
+  top: 10xpx;
+  right: 0;
+  background-color: #7b4eff;
+  color: white;
+  opacity: 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 180px;
+  max-width: 220px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.5s ease, visibility 0.4s ease;  
+  /* cursor: pointer; */
+}
+.menu-dropdown li{
+  margin-bottom: 6px;
+  list-style: none;
+}
+.menu-dropdown a{
+  text-decoration: none;  
+  color: #333;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.10s ease;
+}
+.menu-dropdown a:hover{
+  color: #7b4eff;
+}
+.menu-parent:hover .menu-dropdown{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.order-btn{
+  padding: 4px 10px;
+  border-radius: 8px;
+  background-color: #002ead;
+  color: white;
+  cursor: pointer;
+  border: 1px purple solid;
+  font-size: 18px; 
+}
+.order-btn:hover{
+  box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: 1.5s ease;
+  background-color: rgba(102, 206, 23, 0.403);
+  color: white;
+  transform: scale(1.1);
+} 
+.order-btn:active{
+  transform: scale(0.9);
+}
+.contact-us{
+  position: relative;
+}
+.reach-me{
+  position: absolute;
+  top: 10xpx;
+  right: 0;
+  /* background-color:  rgb(107, 107, 185); */
+  /* background-color: #6DD952; */
+  background-color: #7b4eff;
+  color: black;
+  opacity: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 180px;
+  max-width: 220px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.5s ease, visibility 0.4s ease; 
+}
+.reach-me li{
+  margin-bottom: 6px;
+  list-style: none;
+
+}
+.reach-me a{
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.10s ease;
+
+}
+.reach-me a:hover{
+  color: #7b4eff;
+
+}
+.contact-us:hover .reach-me{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.social-link{
+  position:sticky;
+  top: 19em;
+  width: 1em;
+  right: 50px;
+  border-radius: 50%;
+}
+.icon-img{
+  position: sticky;
+  top: 19em;
+  width: 2em;
+  right: 50px;
+  border-radius: 50%;
+}
+.menu-box{
+  font-size: 25px;
+}
+.about-us{
+  position: relative;
+}
+.about-box{
+   position: absolute;
+  top: 10xpx;
+  right: 0;
+  background-color: #7b4eff;
+  color: black;
+  opacity: 0;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 180px;
+  max-width: 220px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.5s ease, visibility 0.4s ease; 
+
+}
+.about-box li{
+  margin-bottom: 6px;
+  color: white;
+  font-family:serif;
+  font-size: 18 px;
+  list-style: none;
+}
+.about-box p{
+  margin-bottom: 6px;
+  list-style: none;
+
+}
+.about-box a:hover{
+  color: #7b4eff;
+
+}
+.about-us:hover .about-box{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+span{
+  position: relative;
+
+  font-weight: lighter;
+}
+.img-cofe{
+  position: relative;
+  bottom: 9px;
+  right: 8px;
+  width: 36px;
+  border-radius: 50%;
+}
+/* p{
+  position: relative;
+  bottom: 48px;
+  font-size: 20px;
+} */
+.product-box{
+  width: 150px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
+  transition: transform 0.3s ease;
+  position: relative; 
+  left: 2em; 
+}
+.product-box:hover{
+  transform: translateY(-5px);
+}
+.product-box img{
+  width: 75.9%;
+  height: 90%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.product-box h3{
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.product-box .price{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+.product-box button{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.product-box button:hover{
+  background-color: #388E3C;
+}
+.product-title{
+  width: 150px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
+  transition: transform 0.3s ease;
+  position: relative; 
+  left: 15.5em; 
+  bottom: 18.6em;
+}
+.product-title:hover{
+  transform: translateY(-5px);
+}
+.product-title img{
+  width: 100%;
+  height: 90%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.product-title h3{
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.product-title .product-info{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+.product-title button{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.product-title button:hover{
+  background-color: #388E3C;
+}
+.product-brew{
+  width: 150px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
+  transition: transform 0.3s ease;
+  position: relative;
+  left: 29em;
+  bottom: 37.2em;
+}
+.product-brew:hover{
+  transform: translateY(-5px);
+}
+.product-brew img{
+  width: 87%;
+  height: 90%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.product-brew h3{
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.product-brew .card-product-brew{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+.product-brew button{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.product-brew button:hover{
+  background-color: #388E3C;
+}
+.card-brew{
+  width: 150px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 0, 0.427), rgb(135, 135, 214));
+  transition: transform 0.3s ease;
+  position: relative;
+  left: 42em;
+  bottom: 55.8em;
+}
+.card-brew:hover{
+  transform: translateY(-5px);
+}
+.card-brew img{
+  width: 68%;
+  /* height: 90%; */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.card-brew h3{
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 8px;
+}
+.card-brew .card-smoothie{
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+.card-brew button{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.card-brew button:hover{
+  background-color: #388E3C;
+}
