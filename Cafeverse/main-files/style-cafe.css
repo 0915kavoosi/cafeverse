@@ -601,13 +601,13 @@ span{
   background-color: #fff3e0;
   transition: background-color 0.3s ease;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .comparison-table th,
   .comparison-table td {
     font-size: 0.95rem;
     padding: 12px 8px;
   }
-} */
+}
 .coffee-quiz {
   background-color: #fdf6e3;
   padding: 60px 30px;
